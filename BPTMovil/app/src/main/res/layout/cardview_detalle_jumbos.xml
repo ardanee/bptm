@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/vertical_padding_control"
+        android:paddingBottom="@dimen/vertical_padding_control"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:id="@+id/tv_correlativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01123"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Color: 125"/>
+        <TextView
+            android:id="@+id/tv_coloralafecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Color a la fecha: 125"/>
+        <TextView
+            android:id="@+id/tv_bodega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Bodega: 20"/>
+        <TextView
+            android:id="@+id/tv_estiba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Estiba: 3,50,10"/>
+        <TextView
+            android:id="@+id/tv_plana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Plana: 10"/>
+        <TextView
+            android:id="@+id/tv_fila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Fila: 30"/>
+
+        <TextView
+            android:id="@+id/tv_columna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Columna: V"/>
+
+        <LinearLayout
+            android:id="@+id/cuadro_color"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#4CAF50"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            ></LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
