@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_produto_detalle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/vertical_padding_control"
+        android:paddingBottom="@dimen/vertical_padding_control"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:id="@+id/tv_bodega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AZBCGSV"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/tv_cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="4000 JMBO"/>
+        <TextView
+            android:id="@+id/tv_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="180707.47 QQ"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
